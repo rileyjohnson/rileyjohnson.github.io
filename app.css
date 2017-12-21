@@ -1,0 +1,109 @@
+body{
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    background-color: #f8f8f8;
+}
+
+header {
+    text-align: center;
+    background-size: cover;
+   
+  }
+  a {
+    color: #303030;
+  }
+  a:hover {
+    color: #FFA3E4;
+}
+#beep{
+  font-size: 40px;
+}
+a:link {
+    text-decoration: none;
+}
+h1 {
+  font-size: 50px;
+  font-family: 'Archivo Black', sans-serif;
+  color: #303030;
+  background-color: #FCCA46;
+}
+  h2 {
+    font-size: 30px; 
+    font-family: 'Archivo Black', sans-serif;
+    color: #303030;
+    text-align: center;    
+  }
+  p{
+    font-size: 20px;
+    font-family: 'Cabin', sans-serif;
+    color: #303030;
+  }
+
+  img {
+    margin: 40px 0px 0px 0px;
+    border: 11px solid #A3E6FF;
+    border-radius: 8px;
+  }
+  ul {
+    padding: 10px;
+    word-spacing: 55px;
+  }
+  .hoby{
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 40px;
+    padding:10px;
+    word-spacing: 5px;
+    text-align: center;    
+  }
+  li {
+    display: inline;
+    padding: 0px 10px 0px 10px;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 40px;
+  }
+  article {
+    max-width: 500px;
+    padding: 20px;
+    margin: 0 auto;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+.bye{
+  color: #FFA3E4;
+  font-family: 'Archivo Black', sans-serif;
+}
+.hey {
+  border-bottom: 5px solid #303030;
+}
+td {
+  font-size: 20px;
+  font-family: 'Cabin', sans-serif;
+}
+th {
+    background-color: #A3E6FF;
+    color: #f8f8f8;
+    font-size: 30px; 
+    font-family: 'Archivo Black', sans-serif;
+    
+}
+  @media (max-width: 500px) {
+    h1 {
+      font-size: 36px;
+      padding: 5px;
+      font-family: 'Archivo Black', sans-serif;
+    }
+    li {
+      padding: 5px;
+      display: block;
+    }
+    
+  }
